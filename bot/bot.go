@@ -10,6 +10,7 @@ import (
 var BotID string
 var goBot *discordgo.Session
 
+//bot start
 func Start() {
 	goBot, err := discordgo.New("Bot " + config.Token)
 
