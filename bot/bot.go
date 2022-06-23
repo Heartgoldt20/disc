@@ -47,11 +47,11 @@ func messageHandler(s *discordgo.Session, m *discordgo.MessageCreate) {
 	}
 
 	if m.Content == "!ping" {
-		_, _ = s.ChannelMessageSend(m.ChannelID, "ping mij niet neger")
+		_, _ = s.ChannelMessageSend(m.ChannelID, "ping mij niet ")
 	}
 
 	if m.Content == "!danny" {
-		_, _ = s.ChannelMessageSend(m.ChannelID, "danny is gay lol")
+		_, _ = s.ChannelMessageSend(m.ChannelID, "danny is asian lol")
 	}
 
 }
